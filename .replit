@@ -1,0 +1,4 @@
+language = "cpp"
+run = "make;./out/main_classe.out"
+
+entrypoint = "main_classe.cpp"
