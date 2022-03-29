@@ -10,6 +10,6 @@
 #include "Animal.hpp"
 
 class Loup : public Animal {
-  void setAttaque(Animal &a);
+  void setAttaque();
   void deplace(int maxX, int maxY);
 };

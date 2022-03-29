@@ -4,6 +4,8 @@
 #include "Animal.hpp"
 
 class Lion : public Animal{
-  void setAttaque(Animal &a);
+  Lion(int maxX, int maxY, bool vivant);
+  Lion(int maxX, int maxY, int a, int b, bool vivant);
+  void setAttaque();
   void deplace(int maxX, int maxY);
 };

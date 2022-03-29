@@ -10,6 +10,8 @@
 #include "Animal.hpp"
 
 class Pierre : public Animal {
-  void setAttaque(Animal &a);
+  Pierre(int maxX, int maxY, string nom, bool vivant);
+  Pierre(int maxX, int maxY, int a, int b, string nom, bool vivant);
+  void setAttaque();
   void deplace(int maxX, int maxY);
 };
