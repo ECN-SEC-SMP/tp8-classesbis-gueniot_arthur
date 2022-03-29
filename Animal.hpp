@@ -8,6 +8,7 @@
 using namespace std;
 
 class Animal {
+
   protected : 
     string nom;
     int x, y;
